@@ -1,0 +1,89 @@
+.app__profile {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	background-color: #ffebd3;
+}
+
+.profile__avatar {
+	flex: 1;
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 2px solid #f3ebe2;
+}
+.profile__avatar .picture {
+	border-radius: 50%;
+	width: 200px;
+	margin-bottom: 10px;
+}
+.profile__avatar .picture img {
+	border-radius: 50%;
+}
+.profile__avatar .name {
+	font-size: 20px;
+}
+.profile__avatar .job {
+	color: #989898;
+	font-size: 12px;
+}
+
+.profile__avatar .name,
+.profile__avatar .job {
+	font-family: "Alata", sans-serif;
+}
+
+.profile__bio {
+	flex: 3;
+	padding: 10px 20px;
+}
+.profile__skill {
+	padding: 10px 20px;
+	border-bottom: 2px solid #f3ebe2;
+}
+
+.profile__skill h6 {
+	font-size: 14px;
+	margin: 0;
+	margin-bottom: 5px;
+}
+.progress-skill {
+	position: relative;
+	margin-bottom: 20px;
+}
+.progress-skill span {
+	position: absolute;
+	height: 10px;
+}
+.progress-skill .fill {
+	border-radius: 10px;
+	width: 57%;
+	background-color: chocolate;
+}
+.progress-skill .out {
+	border-radius: 10px;
+
+	width: 100%;
+	background-color: #3c2c3e;
+}
+
+.profile__bio .bio {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.profile__bio .bio span {
+	font-family: "Alata", sans-serif;
+}
+
+.profile__bio .bio__birth {
+	margin-top: 20px;
+}
+
+.profile__bio h1 {
+	font-family: "PT Serif", serif;
+}
